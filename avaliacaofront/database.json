@@ -1,0 +1,97 @@
+{
+    "eventos": [
+      {
+        "id":   "1",
+        "imagem": "mvV7iFjK3HwTsEraoBVTce.jpg",
+        "titulo": "Super Bowl LIV",
+        "descricao": "A final do campeonato de futebol americano.",
+        "dataInicio": "2020-02-02",
+        "dataFim": "2020-02-02",
+        "local": "Miami, EUA"
+      },
+      {
+        "id":   "2",
+        "imagem": "olimpiadas.jpg",
+        "titulo": "Olimpíadas de Inverno de 2018",
+        "descricao": "Competições de esportes de inverno.",
+        "dataInicio": "2018-02-09",
+        "dataFim": "2018-02-25",
+        "local": "Pyeongchang, Coreia do Sul"
+      },
+      {
+        "id":   "3",
+        "imagem": "mvV7iFjK3HwTsEraoBVTce.jpg",
+        "titulo": "Copa do Mundo de Futebol de 2014",
+        "descricao": "O torneio mundial de futebol.",
+        "dataInicio": "2014-06-12",
+        "dataFim": "2014-07-13",
+        "local": "Brasil"
+      },
+      {
+        "id":   "4",
+        "imagem": "mvV7iFjK3HwTsEraoBVTce.jpg",
+        "titulo": "Wimbledon 2019",
+        "descricao": "Campeonato de tênis em gramado.",
+        "dataInicio": "2019-07-01",
+        "dataFim": "2019-07-14",
+        "local": "Londres, Reino Unido"
+      },
+      {
+        "id":   "5",
+        "imagem": "mvV7iFjK3HwTsEraoBVTce.jpg",
+        "titulo": "Tour de France 2020",
+        "descricao": "A corrida de bicicleta mais prestigiosa do mundo.",
+        "dataInicio": "2020-08-29",
+        "dataFim": "2020-09-20",
+        "local": "França"
+      },
+    
+  
+      {
+        "id":   "6",
+        "imagem": "mvV7iFjK3HwTsEraoBVTce.jpg",
+        "titulo": "CES (Consumer Electronics Show) 2019",
+        "descricao": "Mostra de eletrônicos e tecnologia de consumo.",
+        "dataInicio": "2019-01-08",
+        "dataFim": "2019-01-11",
+        "local": "Las Vegas, EUA"
+      },
+      {
+        "id":   "7",
+        "imagem": "mvV7iFjK3HwTsEraoBVTce.jpg",
+        "titulo": "Apple WWDC 2017",
+        "descricao": "Conferência anual de desenvolvedores da Apple.",
+        "dataInicio": "2017-06-05",
+        "dataFim": "2017-06-09",
+        "local": "Cupertino, EUA"
+      },
+      {
+        "id":   "8",
+        "imagem": "mvV7iFjK3HwTsEraoBVTce.jpg",
+        "titulo": "E3 2016 (Electronic Entertainment Expo)",
+        "descricao": "Feira de videogames e entretenimento eletrônico.",
+        "dataInicio": "2016-06-14",
+        "dataFim": "2016-06-16",
+        "local": "Los Angeles, EUA"
+      },
+      {
+        "id":   "9",
+        "imagem": "mvV7iFjK3HwTsEraoBVTce.jpg",
+        "titulo": "Google I/O 2018",
+        "descricao": "Conferência anual de desenvolvedores do Google.",
+        "dataInicio": "2018-05-08",
+        "dataFim": "2018-05-10",
+        "local": "Mountain View, EUA"
+      },
+      {
+        "id":   "10",
+        "imagem": "mvV7iFjK3HwTsEraoBVTce.jpg",
+        "titulo": "IFA 2015 (Internationale Funkausstellung)",
+        "descricao": "Feira de eletrônicos de consumo em Berlim.",
+        "dataInicio": "2015-09-04",
+        "dataFim": "2015-09-09",
+        "local": "Berlim, Alemanha"
+      }
+    ]
+  }
+  

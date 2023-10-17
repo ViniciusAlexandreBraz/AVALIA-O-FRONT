@@ -1,0 +1,11 @@
+.listCard{
+    display: flex;
+    flex-wrap: wrap;
+}
+.listCard > div {
+    max-width: 300px;
+}
+.data:hover{
+    cursor:pointer;
+    background-color: aliceblue;
+}
