@@ -1,20 +1,27 @@
 
 .cabecalho {
     display: flex;
-    background-color: rgb(0, 247, 255);
+    background-color: rgb(89, 0, 255);
     justify-content:space-between;
     align-items: center;
     padding: 10px;
     border: 1px solid rgb(203, 203, 203);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.567);
 }
 .titulo{
     display: flex;
     font-size: 4vh;
+    color: white;
+
+}
+.git{
+    display: flex;
+    font-size: 4vh;
+    color: rgb(255, 255, 255);
+   
 }
 .git:hover{
-    background-color: rgb(183, 242, 246);
-    color: rgb(0, 0, 0);
+    background-color: rgb(200, 121, 246);
     border-radius: 6px;
     transition: all 0.4s ease;
 }

@@ -5,7 +5,6 @@ export default function Card({ id, imagem, titulo, dataInicio, dataFim, local })
     return (
         <div className={styles.card}>
             <Link href={`/eventos/${id}`}>
-              
                 <h1 className={styles.cardTitulo}>{titulo}</h1>
                 <img className={styles.imagem} src={imagem} />
                 <div>Data Inicio:{dataInicio}</div>
@@ -14,6 +13,7 @@ export default function Card({ id, imagem, titulo, dataInicio, dataFim, local })
             </Link>
             <forr>
             </forr>
+
         </div >
 
     )

@@ -31,8 +31,11 @@ export default function ListCard() {
                         dataFim={formatarData(e.dataFim)}
                         
                         local={e.local}
+
                     />
+                    
                 ))}
+
             </div>
         </>
 
