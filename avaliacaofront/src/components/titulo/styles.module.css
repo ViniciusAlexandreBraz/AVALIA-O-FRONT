@@ -5,17 +5,15 @@
   }
   
   .title {
-    color: #ffffff;
+    color: #5f33e3;
     text-align: center;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #5f33e3;
+
     font-size: 3rem;
     margin-top: 10px;
   }
   
   .title span {
-    color: white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    color: rgb(0, 0, 0);
+    
   }
   

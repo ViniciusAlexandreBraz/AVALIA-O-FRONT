@@ -1,7 +1,9 @@
 import axios from "axios";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import Cabecalho from "@/components/cabecalho";
 import styles from "./styles.module.css"
+import Rodape from "@/components/rodape";
 
 export default function EventosHome() {
     const [evento, setEvento] = useState({})
@@ -14,7 +16,7 @@ export default function EventosHome() {
 
         if (id) {
             console.log(`executou`)
-            axios.get(`http://localhost:3000/eventos/${id}`)
+            axios.get(`http://localhost:3001/eventos/${id}`)
                 .then(resultado => setEvento(resultado.data))
         }
 
@@ -23,24 +25,22 @@ export default function EventosHome() {
 
     return (
         <>
-
-            <div className={styles.card}>
-                <p className={styles.img}></p>
-                <div>
-                    <h1 className={styles.cardTitulo}>{evento.titulo}
-                    </h1>
-                    <p>{evento.descricao}</p>
-                    <p>{evento.local}</p>
+                <Cabecalho />
+                <div className={styles.card}>
+                    <div>
+                        <img className={styles.img} src={evento.imagemFundo} />
+                    </div>
+                    <div>
+                        <h1 className={styles.cardTitulo}>{evento.titulo}
+                        </h1>
+                        <p>{evento.descricao}</p>
+                        <p>Local: {evento.local}</p>
+                    </div>
+                    
                 </div>
-            </div>
-
-
-
+                <Rodape/>
         </>
-
-
+        
 
     )
-
-
 }

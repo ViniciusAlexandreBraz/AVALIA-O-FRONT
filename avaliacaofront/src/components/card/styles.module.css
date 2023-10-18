@@ -27,7 +27,6 @@
 }
 
 .card>a>div {
-    color: #000000;
     font-size: 12px;
     line-height: 3vh;
 
@@ -35,7 +34,9 @@
 
 .card:hover {
     cursor: pointer;
-    background-color: rgba(195, 161, 249, 0.411);
+    color: white;
+
+    background-color: rgb(38, 38, 38);
     transition: 0.3s;
 
 }

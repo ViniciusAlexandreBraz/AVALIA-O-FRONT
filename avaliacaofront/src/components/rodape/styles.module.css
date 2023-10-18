@@ -1,3 +1,33 @@
-.RodapeBox{
-    background-color: black;
+.RodapeBox {
+    display: flex;
+    align-items: center;
+    background-color: rgb(175, 175, 175);
+    border-color: 2px solid red;
+    border-radius: 0px 10px 0px 0px;
+    
+}
+
+.logo {
+    width: 10vh;
+    height: 10vh;
+}
+
+.plat {
+    font-size: 30px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content:center;
+    width: 69rem;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.redes:hover{
+    background-color: rgb(102, 40, 218);
+    border-radius: 6px;
+    transition: all 0.4s ease;
 }
