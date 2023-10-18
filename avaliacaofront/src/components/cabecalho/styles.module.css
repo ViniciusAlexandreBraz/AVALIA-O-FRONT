@@ -15,10 +15,11 @@
 
 }
 .git{
-    display: flex;
-    font-size: 4vh;
+    display: inline-flex;
+    font-size: 2.3vh;
     color: rgb(255, 255, 255);
-   
+    margin-left: 25px;
+
 }
 .git:hover{
     background-color: rgb(200, 121, 246);

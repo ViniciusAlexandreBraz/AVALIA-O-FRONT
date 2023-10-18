@@ -1,0 +1,21 @@
+.title_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title {
+    color: #ffffff;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #5f33e3;
+    font-size: 3rem;
+    margin-top: 10px;
+  }
+  
+  .title span {
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  

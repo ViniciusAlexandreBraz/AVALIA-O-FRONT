@@ -29,9 +29,7 @@ export default function ListCard() {
                         descricao={e.descricao}
                         dataInicio={formatarData(e.dataInicio)}
                         dataFim={formatarData(e.dataFim)}
-                        
                         local={e.local}
-
                     />
                     
                 ))}

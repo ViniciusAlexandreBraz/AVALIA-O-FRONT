@@ -21,5 +21,12 @@
 
 .card:hover {
     cursor: pointer;
-    background-color: rgb(192, 249, 255);
+    background-color: rgba(195, 161, 249, 0.411);
+}
+.img{
+    display: flex;
+    background:url( "/superbown.jpg");
+    background-size: cover;
+    height: 100vh;
+    min-height: 500px;
 }

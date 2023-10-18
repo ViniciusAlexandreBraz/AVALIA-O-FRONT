@@ -1,7 +1,7 @@
 import Link from "next/link"
 import styles from "./styles.module.css"
 
-export default function Card({ id, imagem, titulo, dataInicio, dataFim, local }) {
+export default function Card({ id, imagem, titulo, dataInicio, dataFim, local, }) {
     return (
         <div className={styles.card}>
             <Link href={`/eventos/${id}`}>
@@ -11,8 +11,6 @@ export default function Card({ id, imagem, titulo, dataInicio, dataFim, local })
                 <div>Data Inicio:{dataFim}</div>
                 <div>local:{local}</div>
             </Link>
-            <forr>
-            </forr>
 
         </div >
 

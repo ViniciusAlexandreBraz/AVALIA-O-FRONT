@@ -23,16 +23,22 @@ export default function EventosHome() {
 
     return (
         <>
-         <div className={styles.card}>
-            <h1 className={styles.cardTitulo}>{evento.titulo}
-            </h1>
-            <p>{evento.descricao}</p>
-            <p>{evento.local}</p>
-        </div>
+
+            <div className={styles.card}>
+                <p className={styles.img}></p>
+                <div>
+                    <h1 className={styles.cardTitulo}>{evento.titulo}
+                    </h1>
+                    <p>{evento.descricao}</p>
+                    <p>{evento.local}</p>
+                </div>
+            </div>
+
+
 
         </>
-       
-        
+
+
 
     )
 
