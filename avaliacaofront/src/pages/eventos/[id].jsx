@@ -16,7 +16,7 @@ export default function EventosHome() {
 
         if (id) {
             console.log(`executou`)
-            axios.get(`http://localhost:3001/eventos/${id}`)
+            axios.get(`http://localhost:3000/eventos/${id}`)
                 .then(resultado => setEvento(resultado.data))
         }
 

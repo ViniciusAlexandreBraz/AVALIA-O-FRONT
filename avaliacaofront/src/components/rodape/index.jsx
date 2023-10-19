@@ -6,8 +6,8 @@ import Link from 'next/link';
 export default function Rodape() {
     return (
         <>
-
             <footer className={styles.RodapeBox}>
+               
                 <div>
                     <img src={'/_kamer.png'} className={styles.logo} />
                 </div>
@@ -15,7 +15,10 @@ export default function Rodape() {
                     <p className={styles.plat}>Plataforma de Eventos - Front End/Aula-Marco-Andrade</p>
                     <p className={styles.plat}>Vinicius Alexandre</p>
                 </div>
-                <div>
+        
+                
+
+                <div className={styles.links}>
                     <Link className={styles.redes} href="https://portal.ifro.edu.br/vilhena">
                         IFRO - Campus Vilhena
                     </Link>
