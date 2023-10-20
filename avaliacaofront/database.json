@@ -1,117 +1,152 @@
 {
-    "eventos": [
-      {
-        "id":   "1",
-        "imagem": "superbown.jpg",
-        "titulo": "Super Bowl LIV",
-        "descricao": "O Super Bowl é a final do campeonato da National Football League (NFL), o evento esportivo mais assistido nos EUA e um dos maiores do mundo. Além do jogo de futebol americano, é um espetáculo de entretenimento com shows de intervalo de artistas famosos e comerciais criativos, enquanto as pessoas se reúnem para festas com comida e diversão, tornando-o uma tradição cultural e econômica significativa nos Estados Unidos.",       
-        "dataInicio": "2020-02-02",
-        "dataFim": "2020-02-02",
-        "local": "Miami, EUA",
-        "imagemFundo": "/1209950.jpg"
-
-      },
-      {
-        "id":   "2",
-        "imagem": "olimpiadas.jpg",
-        "titulo": "Jogos Olimpicos de 2016",
-        "descricao": "Os Jogos Olímpicos de 2016, sediados no Rio de Janeiro, Brasil, foram marcados por momentos esportivos memoráveis, incluindo o sucesso do nadador Michael Phelps, a incrível ginasta Simone Biles e as corridas de velocidade de Usain Bolt. Com a participação de mais de 11.000 atletas de 207 nações, o evento deixou um legado de instalações esportivas de alta qualidade na cidade, embora tenha enfrentado desafios financeiros e questões de segurança. A cerimônia de encerramento no icônico Estádio do Maracanã celebrou a rica cultura brasileira e enfatizou o compromisso com a sustentabilidade.",
-        "dataInicio": "2016-08-05",
-        "dataFim": "2016-08-21",
-        "local": "Rio de Janeiro, Brazil",
-        "imagemFundo": "/olympics.jpeg"
-
-      },
-      {
-        "id":   "3",
-        "imagem": "copa.jpg",
-        "titulo": "Copa do Mundo de 2014",
-        "descricao": "A Copa do Mundo de 2014 foi realizada no Brasil, marcando o retorno do torneio ao país após 64 anos. O evento contou com a participação de 32 equipes e jogos emocionantes em várias cidades brasileiras. O torneio foi vencido pela seleção alemã, que derrotou a Argentina na final, enquanto o Brasil enfrentou uma derrota humilhante de 7 a 1 para a Alemanha nas semifinais. Além disso, a competição destacou-se pelo entusiasmo e paixão dos torcedores brasileiros, bem como pelas preocupações sobre gastos excessivos em infraestrutura e questões sociais. Foi uma Copa do Mundo que gerou uma série de histórias memoráveis e discussões sobre o impacto do evento no país anfitrião.",
-        "dataInicio": "2014-06-12",
-        "dataFim": "2014-07-13",
-        "local": "Brasil",
-        "imagemFundo": "/copafund.jpeg"
-
-      },
-      {
-        "id":   "4",
-        "imagem": "wimbledon.jpg",
-        "titulo": "Wimbledon 2019",
-        "descricao": "Wimbledon é o torneio de tênis mais antigo e prestigiado do mundo, realizado anualmente no All England Lawn Tennis and Croquet Club, em Wimbledon, Londres. O torneio é conhecido por sua tradição, quadras de grama impecável e o famoso vestuário branco obrigatório para os jogadores. As competições de simples, duplas e mistas atraem os melhores tenistas do mundo, e os campeões de Wimbledon são considerados alguns dos maiores do esporte. O torneio é um dos quatro Grand Slam e é amplamente acompanhado por fãs de tênis em todo o mundo, atraindo atenção não apenas pelo espetáculo esportivo, mas também por sua rica herança e etiqueta distinta..",
-        "dataInicio": "2019-07-01",
-        "dataFim": "2019-07-14",
-        "local": "Londres, Reino Unido",
-        "imagemFundo": "/1321989.jpeg"
-
-      },
-      {
-        "id":   "5",
-        "imagem": "tourdefrance.jpg",
-        "titulo": "Tour de France 2020",
-        "descricao": "O Tour da França, ou Tour de France em francês, é a corrida de ciclismo mais famosa e prestigiada do mundo, realizada anualmente na França. O evento é uma competição por etapas que dura aproximadamente três semanas e percorre todo o país, incluindo montanhas, planícies e cidades históricas. Os ciclistas de todo o mundo competem em equipes e individualmente, lutando pela famosa camisola amarela, que é usada pelo líder da classificação geral. O Tour de France é conhecido por sua dureza e desafios, com etapas de montanha como o Mont Ventoux e o Alpe d'Huez sendo particularmente notáveis. O evento atrai um grande público, tanto nas estradas quanto na televisão, e é acompanhado por fãs de ciclismo de todo o mundo, tornando-se um dos marcos mais importantes do calendário esportivo internacional.",
-        "dataInicio": "2020-08-29",
-        "dataFim": "2020-09-20",
-        "local": "França",
-        "imagemFundo": "/575669.jpg"
-
-      },
-    
-  
-      {
-        "id":   "6",
-        "imagem": "ces.jpg",
-        "titulo": "Consumer Electronics Show",
-        "descricao": "A Consumer Electronics Show (CES), em português, Feira de Eletrônicos de Consumo, é um dos maiores e mais importantes eventos de tecnologia e eletrônicos do mundo. Realizada anualmente em Las Vegas, nos Estados Unidos, a CES serve como palco para a apresentação e lançamento de novas tecnologias, produtos eletrônicos, inovações e tendências no setor de eletrônicos de consumo. A feira atrai milhares de empresas, desde gigantes da indústria até startups promissoras, que exibem produtos inovadores, como dispositivos inteligentes, TVs, robótica, veículos autônomos, eletrônicos vestíveis, e muito mais.",
-        "dataInicio": "2019-01-08",
-        "dataFim": "2019-01-11",
-        "local": "Las Vegas, EUA",
-        "imagemFundo": "/consumer.jpg"
-
-      },
-      {
-        "id":   "7",
-        "imagem": "apple.jpg",
-        "titulo": "Apple WWDC 2017",
-        "descricao": "A Conferência Mundial de Desenvolvedores da Apple (WWDC) é um evento anual crucial no mundo da tecnologia, organizado pela Apple, que reúne desenvolvedores, engenheiros e entusiastas para apresentar as mais recentes inovações em software e, ocasionalmente, hardware. Durante o WWDC, a Apple anuncia as atualizações de seus sistemas operacionais, disponibiliza ferramentas de desenvolvimento e demonstra seu compromisso com a inovação tecnológica. Este evento é uma plataforma essencial para a empresa divulgar novos produtos e recursos, além de fornecer sessões práticas e oportunidades de networking para aprimorar a comunidade de desenvolvedores da Apple. O WWDC é altamente aguardado e amplamente respeitado no setor de tecnologia devido à sua influência no futuro dos produtos e ecossistema da Apple.",
-        "dataInicio": "2017-06-05",
-        "dataFim": "2017-06-09",
-        "local": "Cupertino, EUA",
-        "imagemFundo": "/wwdc.jpg"
-
-      },
-      {
-        "id":   "8",
-        "imagem": "e3.jpg",
-        "titulo": "E3 (Electronic Entertainment)",
-        "descricao": "A Electronic Entertainment Expo (E3) é uma das maiores feiras de videogames do mundo, que ocorre anualmente nos Estados Unidos. Este evento é um ponto focal para a indústria de jogos, onde as principais empresas e desenvolvedores de videogames apresentam suas mais recentes criações, incluindo novos jogos, consoles e tecnologias relacionadas. A E3 oferece aos fãs de videogames e profissionais da indústria a oportunidade de experimentar em primeira mão os títulos mais esperados, participar de demonstrações e conferências de imprensa, e conhecer as tendências emergentes no mundo dos videogames. A E3 é um marco no calendário de eventos de jogos eletrônicos e tem um papel fundamental na definição das direções futuras da indústria de jogos.",
-        "dataInicio": "2016-06-14",
-        "dataFim": "2016-06-16",
-        "local": "Los Angeles, EUA",
-        "imagemFundo": "/e3show.jpg"
-
-      },
-      {
-        "id":   "9",
-        "imagem": "google.jpg",
-        "titulo": "Google I/O 2017",
-        "descricao": "A Google I/O é a conferência anual de desenvolvedores organizada pela Google, uma das principais empresas de tecnologia do mundo. O evento é focado em tecnologias e produtos da Google, onde a empresa faz importantes anúncios relacionados a seu sistema operacional Android, suas aplicações e serviços, dispositivos como o Google Pixel, além de novas iniciativas em inteligência artificial, realidade virtual, aprendizado de máquina e muito mais. A Google I/O atrai desenvolvedores, entusiastas de tecnologia e jornalistas, oferecendo sessões práticas, palestras e demonstrações, bem como a oportunidade de experimentar as últimas inovações tecnológicas da Google. O evento desempenha um papel importante na divulgação das direções futuras da empresa e na interação com sua comunidade de desenvolvedores e fãs. É um dos momentos mais aguardados no calendário de tecnologia e informática.",
-        "dataInicio": "2017-05-08",
-        "dataFim": "2017-05-10",
-        "local": "Mountain View, EUA",
-        "imagemFundo": "/io.jpg"
-
-      },
-      {
-        "id":   "10",
-        "imagem": "bgs.jpg",
-        "titulo": "BGS (Brasil Game Show)",
-        "descricao": "A Brasil Game Show, frequentemente abreviada como BGS, é a maior feira de videogames da América Latina. Realizada anualmente no Brasil, a BGS oferece aos entusiastas de jogos eletrônicos a oportunidade de experimentar em primeira mão as últimas novidades em videogames, consoles, jogos, acessórios e tecnologias relacionadas. O evento atrai milhares de visitantes, incluindo gamers, desenvolvedores, jornalistas e profissionais da indústria de jogos. Além das exposições das principais empresas do setor, a BGS também apresenta palestras, painéis, torneios e a presença de convidados ilustres do mundo dos jogos, tornando-se um importante ponto de encontro para a comunidade gamer brasileira e latino-americana. A BGS é reconhecida por seu papel fundamental na promoção da cultura dos videogames no Brasil e na região.",
-        "dataInicio": "2015-09-04",
-        "dataFim": "2015-09-09",
-        "local": "Berlim, Alemanha",
-        "imagemFundo": "/samsung-home.jpg"
-
-      }
-    ]
-  }
-  
+  "eventos": [
+    {
+      "id": "1",
+      "imagem": "superbown.jpg",
+      "titulo": "Super Bowl LIV",
+      "descricao": "O Super Bowl é a final do campeonato da National Football League (NFL), o evento esportivo mais assistido nos EUA e um dos maiores do mundo. Além do jogo de futebol americano, é um espetáculo de entretenimento com shows de intervalo de artistas famosos e comerciais criativos, enquanto as pessoas se reúnem para festas com comida e diversão, tornando-o uma tradição cultural e econômica significativa nos Estados Unidos.",
+      "dataInicio": "2020-02-02",
+      "dataFim": "2020-02-02",
+      "local": "Miami, EUA",
+      "imagemFundo": "/1209950.jpg"
+    },
+    {
+      "id": "2",
+      "imagem": "olimpiadas.jpg",
+      "titulo": "Jogos Olimpicos de 2016",
+      "descricao": "Os Jogos Olímpicos de 2016, sediados no Rio de Janeiro, Brasil, foram marcados por momentos esportivos memoráveis, incluindo o sucesso do nadador Michael Phelps, a incrível ginasta Simone Biles e as corridas de velocidade de Usain Bolt. Com a participação de mais de 11.000 atletas de 207 nações, o evento deixou um legado de instalações esportivas de alta qualidade na cidade, embora tenha enfrentado desafios financeiros e questões de segurança. A cerimônia de encerramento no icônico Estádio do Maracanã celebrou a rica cultura brasileira e enfatizou o compromisso com a sustentabilidade.",
+      "dataInicio": "2016-08-05",
+      "dataFim": "2016-08-21",
+      "local": "Rio de Janeiro, Brazil",
+      "imagemFundo": "/olympics.jpeg"
+    },
+    {
+      "id": "3",
+      "imagem": "copa.jpg",
+      "titulo": "Copa do Mundo de 2014",
+      "descricao": "A Copa do Mundo de 2014 foi realizada no Brasil, marcando o retorno do torneio ao país após 64 anos. O evento contou com a participação de 32 equipes e jogos emocionantes em várias cidades brasileiras. O torneio foi vencido pela seleção alemã, que derrotou a Argentina na final, enquanto o Brasil enfrentou uma derrota humilhante de 7 a 1 para a Alemanha nas semifinais. Além disso, a competição destacou-se pelo entusiasmo e paixão dos torcedores brasileiros, bem como pelas preocupações sobre gastos excessivos em infraestrutura e questões sociais. Foi uma Copa do Mundo que gerou uma série de histórias memoráveis e discussões sobre o impacto do evento no país anfitrião.",
+      "dataInicio": "2014-06-12",
+      "dataFim": "2014-07-13",
+      "local": "Brasil",
+      "imagemFundo": "/copafund.jpeg"
+    },
+    {
+      "id": "4",
+      "imagem": "wimbledon.jpg",
+      "titulo": "Wimbledon 2019",
+      "descricao": "Wimbledon é o torneio de tênis mais antigo e prestigiado do mundo, realizado anualmente no All England Lawn Tennis and Croquet Club, em Wimbledon, Londres. O torneio é conhecido por sua tradição, quadras de grama impecável e o famoso vestuário branco obrigatório para os jogadores. As competições de simples, duplas e mistas atraem os melhores tenistas do mundo, e os campeões de Wimbledon são considerados alguns dos maiores do esporte. O torneio é um dos quatro Grand Slam e é amplamente acompanhado por fãs de tênis em todo o mundo, atraindo atenção não apenas pelo espetáculo esportivo, mas também por sua rica herança e etiqueta distinta..",
+      "dataInicio": "2019-07-01",
+      "dataFim": "2019-07-14",
+      "local": "Londres, Reino Unido",
+      "imagemFundo": "/1321989.jpeg"
+    },
+    {
+      "id": "5",
+      "imagem": "tourdefrance.jpg",
+      "titulo": "Tour de France 2020",
+      "descricao": "O Tour da França, ou Tour de France em francês, é a corrida de ciclismo mais famosa e prestigiada do mundo, realizada anualmente na França. O evento é uma competição por etapas que dura aproximadamente três semanas e percorre todo o país, incluindo montanhas, planícies e cidades históricas. Os ciclistas de todo o mundo competem em equipes e individualmente, lutando pela famosa camisola amarela, que é usada pelo líder da classificação geral. O Tour de France é conhecido por sua dureza e desafios, com etapas de montanha como o Mont Ventoux e o Alpe d'Huez sendo particularmente notáveis. O evento atrai um grande público, tanto nas estradas quanto na televisão, e é acompanhado por fãs de ciclismo de todo o mundo, tornando-se um dos marcos mais importantes do calendário esportivo internacional.",
+      "dataInicio": "2020-08-29",
+      "dataFim": "2020-09-20",
+      "local": "França",
+      "imagemFundo": "/575669.jpg"
+    },
+    {
+      "id": "6",
+      "imagem": "ces.jpg",
+      "titulo": "Consumer Electronics Show",
+      "descricao": "A Consumer Electronics Show (CES), em português, Feira de Eletrônicos de Consumo, é um dos maiores e mais importantes eventos de tecnologia e eletrônicos do mundo. Realizada anualmente em Las Vegas, nos Estados Unidos, a CES serve como palco para a apresentação e lançamento de novas tecnologias, produtos eletrônicos, inovações e tendências no setor de eletrônicos de consumo. A feira atrai milhares de empresas, desde gigantes da indústria até startups promissoras, que exibem produtos inovadores, como dispositivos inteligentes, TVs, robótica, veículos autônomos, eletrônicos vestíveis, e muito mais.",
+      "dataInicio": "2019-01-08",
+      "dataFim": "2019-01-11",
+      "local": "Las Vegas, EUA",
+      "imagemFundo": "/consumer.jpg"
+    },
+    {
+      "id": "7",
+      "imagem": "apple.jpg",
+      "titulo": "Apple WWDC 2017",
+      "descricao": "A Conferência Mundial de Desenvolvedores da Apple (WWDC) é um evento anual crucial no mundo da tecnologia, organizado pela Apple, que reúne desenvolvedores, engenheiros e entusiastas para apresentar as mais recentes inovações em software e, ocasionalmente, hardware. Durante o WWDC, a Apple anuncia as atualizações de seus sistemas operacionais, disponibiliza ferramentas de desenvolvimento e demonstra seu compromisso com a inovação tecnológica. Este evento é uma plataforma essencial para a empresa divulgar novos produtos e recursos, além de fornecer sessões práticas e oportunidades de networking para aprimorar a comunidade de desenvolvedores da Apple. O WWDC é altamente aguardado e amplamente respeitado no setor de tecnologia devido à sua influência no futuro dos produtos e ecossistema da Apple.",
+      "dataInicio": "2017-06-05",
+      "dataFim": "2017-06-09",
+      "local": "Cupertino, EUA",
+      "imagemFundo": "/wwdc.jpg"
+    },
+    {
+      "id": "8",
+      "imagem": "e3.jpg",
+      "titulo": "E3 (Electronic Entertainment)",
+      "descricao": "A Electronic Entertainment Expo (E3) é uma das maiores feiras de videogames do mundo, que ocorre anualmente nos Estados Unidos. Este evento é um ponto focal para a indústria de jogos, onde as principais empresas e desenvolvedores de videogames apresentam suas mais recentes criações, incluindo novos jogos, consoles e tecnologias relacionadas. A E3 oferece aos fãs de videogames e profissionais da indústria a oportunidade de experimentar em primeira mão os títulos mais esperados, participar de demonstrações e conferências de imprensa, e conhecer as tendências emergentes no mundo dos videogames. A E3 é um marco no calendário de eventos de jogos eletrônicos e tem um papel fundamental na definição das direções futuras da indústria de jogos.",
+      "dataInicio": "2016-06-14",
+      "dataFim": "2016-06-16",
+      "local": "Los Angeles, EUA",
+      "imagemFundo": "/e3show.jpg"
+    },
+    {
+      "id": "9",
+      "imagem": "google.jpg",
+      "titulo": "Google I/O 2017",
+      "descricao": "A Google I/O é a conferência anual de desenvolvedores organizada pela Google, uma das principais empresas de tecnologia do mundo. O evento é focado em tecnologias e produtos da Google, onde a empresa faz importantes anúncios relacionados a seu sistema operacional Android, suas aplicações e serviços, dispositivos como o Google Pixel, além de novas iniciativas em inteligência artificial, realidade virtual, aprendizado de máquina e muito mais. A Google I/O atrai desenvolvedores, entusiastas de tecnologia e jornalistas, oferecendo sessões práticas, palestras e demonstrações, bem como a oportunidade de experimentar as últimas inovações tecnológicas da Google. O evento desempenha um papel importante na divulgação das direções futuras da empresa e na interação com sua comunidade de desenvolvedores e fãs. É um dos momentos mais aguardados no calendário de tecnologia e informática.",
+      "dataInicio": "2017-05-08",
+      "dataFim": "2017-05-10",
+      "local": "Mountain View, EUA",
+      "imagemFundo": "/io.jpg"
+    },
+    {
+      "id": "10",
+      "imagem": "bgs.jpg",
+      "titulo": "BGS (Brasil Game Show)",
+      "descricao": "A Brasil Game Show, frequentemente abreviada como BGS, é a maior feira de videogames da América Latina. Realizada anualmente no Brasil, a BGS oferece aos entusiastas de jogos eletrônicos a oportunidade de experimentar em primeira mão as últimas novidades em videogames, consoles, jogos, acessórios e tecnologias relacionadas. O evento atrai milhares de visitantes, incluindo gamers, desenvolvedores, jornalistas e profissionais da indústria de jogos. Além das exposições das principais empresas do setor, a BGS também apresenta palestras, painéis, torneios e a presença de convidados ilustres do mundo dos jogos, tornando-se um importante ponto de encontro para a comunidade gamer brasileira e latino-americana. A BGS é reconhecida por seu papel fundamental na promoção da cultura dos videogames no Brasil e na região.",
+      "dataInicio": "2015-09-04",
+      "dataFim": "2015-09-09",
+      "local": "Berlim, Alemanha",
+      "imagemFundo": "/samsung-home.jpg"
+    },
+    {
+      "titulo": "",
+      "descricao": "",
+      "dataInicio": "",
+      "dataFim": "",
+      "local": "",
+      "id": "JKvVwg9"
+    },
+    {
+      "titulo": "",
+      "descricao": "",
+      "dataInicio": "",
+      "dataFim": "",
+      "local": "",
+      "id": "cRG6BAr"
+    },
+    {
+      "titulo": "",
+      "descricao": "",
+      "dataInicio": "",
+      "dataFim": "",
+      "local": "",
+      "id": "o1j_rSn"
+    },
+    {
+      "titulo": "",
+      "descricao": "",
+      "dataInicio": "",
+      "dataFim": "",
+      "local": "",
+      "id": "_V2tZC6"
+    },
+    {
+      "titulo": "",
+      "descricao": "",
+      "dataInicio": "",
+      "dataFim": "",
+      "local": "",
+      "id": "m6KDh3j"
+    },
+    {
+      "titulo": "",
+      "descricao": "",
+      "dataInicio": "",
+      "dataFim": "",
+      "local": "",
+      "id": "CY9Y7pH"
+    }
+  ]
+}

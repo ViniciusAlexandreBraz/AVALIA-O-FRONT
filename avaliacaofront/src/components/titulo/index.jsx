@@ -8,7 +8,8 @@ export default function Titulo() {
         <>
             <div className={styles.title_container}>
                 <h1 className={styles.title}>
-                    Central <span>De Eventos</span>
+
+                    Event <span>Center</span>
                 </h1>
             </div>
         </>

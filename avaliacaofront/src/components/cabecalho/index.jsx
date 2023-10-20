@@ -7,7 +7,7 @@ export default function Cabecalho() {
     return (
         <div className={styles.tela}>
             <header className={styles.cabecalho}>
-                <h1 className={styles.titulo}>Central de Eventos</h1>
+                <h1 className={styles.titulo}>Event Center</h1>
                 <div >
 
                     <Link href="/">
@@ -19,7 +19,7 @@ export default function Cabecalho() {
                     </Link>
 
                     <Link
-                        href="">
+                        href="/cadastrar">
                         <h1 className={styles.git}>CADASTRAR</h1>
                     </Link>
                 </div>
