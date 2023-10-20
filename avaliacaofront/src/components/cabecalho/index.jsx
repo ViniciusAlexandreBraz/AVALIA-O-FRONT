@@ -14,13 +14,14 @@ export default function Cabecalho() {
                         <h1 className={styles.git}>HOME</h1>
                     </Link>
 
-                    <Link href="https://gitlab.fslab.dev/VinitheGoat0221">
-                        <h1 className={styles.git}>GITHUB</h1>
-                    </Link>
-
                     <Link
                         href="/cadastrar">
                         <h1 className={styles.git}>CADASTRAR</h1>
+                    </Link>
+
+                    <Link
+                        href="/saibamais">
+                        <h1 className={styles.git}>SAIBA MAIS</h1>
                     </Link>
                 </div>
             </header>

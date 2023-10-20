@@ -3,12 +3,11 @@
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     width: 15rem;
-    margin: 1rem auto;
+    margin: 1rem;
     padding: 1rem;
     border-radius: 1rem;
     border: 1px solid rgb(89, 0, 255);
-
-    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.567);
+    box-shadow: 8px 8px 10px 0px rgba(0, 0, 0, 0.367);
   
 }
 

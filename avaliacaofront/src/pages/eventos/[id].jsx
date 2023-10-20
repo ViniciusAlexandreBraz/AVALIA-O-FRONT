@@ -16,7 +16,7 @@ export default function EventosHome() {
 
         if (id) {
             console.log(`executou`)
-            axios.get(`http://localhost:3000/eventos/${id}`)
+            axios.get(`http://localhost:3001/eventos/${id}`)
                 .then(resultado => setEvento(resultado.data))
         }
 
@@ -30,11 +30,11 @@ export default function EventosHome() {
                     <div>
                         <img className={styles.img} src={evento.imagemFundo} />
                     </div>
-                    <div>
+                    <div style={{textAlign: "justify", padding:"1rem"}}>
                         <h1 className={styles.cardTitulo}>{evento.titulo}
                         </h1>
                         <p>{evento.descricao}</p>
-                        <p>Local: {evento.local}</p>
+                        <p> <b>Local: </b>{evento.local}</p>
                     </div>
                     
                 </div>

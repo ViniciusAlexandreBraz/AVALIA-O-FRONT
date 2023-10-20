@@ -15,7 +15,7 @@ export default function Formulario() {
     function inserirEvento(e) {
         e.preventDefault()
 
-        axios.post('http://localhost:3000/eventos', evento)
+        axios.post('http://localhost:3001/eventos', evento)
             .then(resultado => console.log(resultado.data)).catch
             (erro => console.log(erro))
     }
@@ -27,27 +27,7 @@ export default function Formulario() {
                     <h1 className={styles.title}>
                         Cadastrar <span>Eventos</span>
                     </h1>
-
-
-
                     <Label />
-
-
-                    <div>
-                        <label className="styles.label3" >DataInicio</label>
-                        <input type="date"
-                            id="dataInicio"
-                            value={evento.dataInicio}
-                            onChange={e => setEvento({ ...evento, dataInicio: e.target.value })} />
-                    </div>
-                    <div>
-                        <label className="styles.label4">DataFim</label>
-                        <input type="date"
-                            id="dataFim"
-                            value={evento.dataFim}
-                            onChange={e => setEvento({ ...evento, dataFim: e.target.value })} />
-                    </div>
-
                     <div>
                         <label className="styles.label5">Local</label>
                         <input type="local"

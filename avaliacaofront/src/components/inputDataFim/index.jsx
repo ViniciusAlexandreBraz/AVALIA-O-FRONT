@@ -1,10 +1,9 @@
-import styles from "./styles.module.css"
 import { useState } from "react"
 
+export default function dataFim(){
 
-export default function Input() {
     const [evento, setEvento] = useState({
-        titulo: ""
+        dataFim: ""
     })
 
     function inserirEvento(e) {
@@ -14,15 +13,14 @@ export default function Input() {
              .then(resultado => console.log(resultado.data)).catch
              (erro => console.log(erro))
      }
-
-    return (
+    return(
         <div onSubmit={e => inserirEvento(e)}>
-            <input className={styles.title}
-                type="text"
-                id="titulo"
-                value={evento.titulo}
-                onChange={e => setEvento({ ...evento, titulo: e.target.value })}
+              <input style={{ border: "1px solid rgb(143, 12, 200)"}} type="date"
+                id="dataFim"
+                value={evento.dataInicio}
+                onChange={e => setEvento({ ...evento, dataFim: e.target.value })}
             />
         </div>
+      
     )
 }

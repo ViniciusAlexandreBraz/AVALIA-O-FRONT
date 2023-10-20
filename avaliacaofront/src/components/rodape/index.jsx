@@ -3,7 +3,7 @@
 import styles from './styles.module.css';
 import { AiOutlineInstagram } from 'react-icons/ai';
 import { AiOutlineLinkedin } from 'react-icons/ai';
-import { AiOutlineMail } from 'react-icons/ai';
+import { AiFillGithub } from 'react-icons/ai';
 import { AiOutlineCopyrightCircle } from 'react-icons/ai';
 
 import Link from 'next/link';
@@ -20,16 +20,16 @@ export default function Rodape() {
 
                         <div className={styles.footerSocialMedia} id='footer_social_media'>
 
-                            <a href='#' className={styles.footerLink1} id='instagram'>
+                            <Link href='https://www.instagram.com/iamtheviny/' className={styles.footerLink1} id='instagram'>
                                 <AiOutlineInstagram className={styles.Instagram} />
-                            </a>
-                            <a href='#' className={styles.footerLink2} id='Linkedin'>
+                            </Link>
+                            <Link href='https://www.linkedin.com/in/vinicius-alexandre-braz-oliveira-9083381b5/' className={styles.footerLink2} id='Linkedin'>
                                 <AiOutlineLinkedin className={styles.Linkedin} />
-                            </a>
-                            <a href='#' className={styles.footerLink3} id='Email'>
-                                <AiOutlineMail className={styles.Email} />
-                            </a>
-
+                            </Link>
+                            <Link href="https://github.com/ViniciusAlexandreBraz" className={styles.footerLink3} id='Email'>
+                                <AiFillGithub className={styles.Email} />
+                            </Link>
+                           
                         </div>
 
 
