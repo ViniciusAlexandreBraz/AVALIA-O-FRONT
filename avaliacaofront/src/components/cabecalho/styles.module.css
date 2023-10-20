@@ -7,6 +7,8 @@
     padding: 10px;
     border: 1px solid rgb(203, 203, 203);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.567);
+    min-width: 35rem;
+
 }
 .titulo{
     display: flex;
@@ -24,4 +26,17 @@
     background-color: rgb(200, 121, 246);
     border-radius: 6px;
     transition: all 0.4s ease;
+}
+@media screen and (max-width: 768px) {
+    .footerContent{
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .footerContent{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
 }

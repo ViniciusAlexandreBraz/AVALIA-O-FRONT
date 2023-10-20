@@ -10,6 +10,8 @@
     border-radius: 1rem;
     border: 1px solid rgb(89, 0, 255);
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.567);
+    min-width: 35rem;
+
   
 }
 .cardTitulo {
@@ -39,4 +41,17 @@
     background-size: cover;
     height: 60vh;
     width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .footerContent{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .footerContent{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
 }
