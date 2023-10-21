@@ -1,6 +1,8 @@
 import Input from "../input"
 import InputDataInicio from "../inputDataInicio"
 import InputDataFim from "../inputDataFim"
+import InputLocal from "../inputLocal"
+
 import TextArea from "../textArea"
 import styles from "./styles.module.css"
 
@@ -26,6 +28,11 @@ export default function () {
                     <label className={styles.data} >Data Fim:</label>
                     <InputDataFim />
                 </div>
+            </div>
+
+            <div>
+                <label className={styles.local}>Local</label>
+                <InputLocal />
             </div>
         </>
     )

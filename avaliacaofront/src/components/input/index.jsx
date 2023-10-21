@@ -17,12 +17,14 @@ export default function Input() {
 
     return (
         <div onSubmit={e => inserirEvento(e)}>
+            <div className={styles.container}>
             <input className={styles.title}
                 type="text"
                 id="titulo"
                 value={evento.titulo}
                 onChange={e => setEvento({ ...evento, titulo: e.target.value })}
             />
+            </div>
         </div>
     )
 }

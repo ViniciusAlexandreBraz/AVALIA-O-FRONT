@@ -5,7 +5,7 @@
 }
 
 .footerContent {
-    background-color: rgba(95, 95, 95, 0.603);
+    background-color:rgb(18, 10, 143);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 3rem 3.5rem;
@@ -120,7 +120,7 @@
     gap: 0.25rem;
     padding: 0.25rem;
     justify-content: center;
-    background-color: rgb(80, 80, 80);
+    background-color: rgb(0, 0, 0);
     font-weight: 200;
     min-width: 35rem;
 

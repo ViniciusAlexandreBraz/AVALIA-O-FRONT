@@ -8,22 +8,23 @@
     display: flex;
     border: 1px solid rgb(143, 12, 200);
     color: rgb(0, 0, 0);
-    height:10rem;
+    margin-top: -30px;
+    height:5rem;
     width: 35rem;
     background-color: rgb(255, 255, 255);
-    max-width: 45rem;
+    max-width: 35rem;
     flex-direction: column;
     resize: none;
 }
 @media screen and (max-width: 768px) {
-    .container{
+    .box{
         grid-template-columns: repeat(1, 1fr);
         gap: 5rem;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .container{
+    .box{
         grid-template-columns: repeat(1, 1fr);
         padding: 3rem 2rem;
     }

@@ -1,7 +1,0 @@
-.container{
-    display: flex;
-}
-.titulo{
-    border: 1px solid black;
-    flex-direction: column;
-}

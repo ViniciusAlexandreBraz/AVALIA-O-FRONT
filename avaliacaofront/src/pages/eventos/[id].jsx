@@ -38,7 +38,7 @@ export default function EventosHome() {
                     </div>
                     
                 </div>
-                <Rodape/>
+             <Rodape/>
         </>
         
 
