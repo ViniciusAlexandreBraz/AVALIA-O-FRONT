@@ -22,13 +22,12 @@ export default function TextArea() {
 
         <form onSubmit={e => inserirEvento(e)}>
             <div className={styles.container}>
-                <textarea className={styles.box} 
+                <textarea className={styles.box}
                     value={evento.descricao}
                     onChange={e => setEvento({ ...evento, descricao: e.target.value })}
                 />
             </div>
         </form >
-
     )
 }
 

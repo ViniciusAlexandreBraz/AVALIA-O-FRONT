@@ -27,7 +27,7 @@ export default function Formulario() {
                     <h1 className={styles.title}>
                         Cadastrar <span>Eventos</span>
                     </h1>
-                    <Label />
+                    <Label/>
 
                     <div>
                         <button>Cadastrar</button>
