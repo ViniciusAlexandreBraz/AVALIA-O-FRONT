@@ -25,20 +25,19 @@ export default function EventosHome() {
 
     return (
         <>
-                <Cabecalho />
+             
                 <div className={styles.card}>
                     <div>
                         <img className={styles.img} src={evento.imagemFundo} />
                     </div>
-                    <div style={{textAlign: "justify", padding:"1rem"}}>
+                    <div style={{textAlign: "justify"}}>
                         <h1 className={styles.cardTitulo}>{evento.titulo}
                         </h1>
-                        <p>{evento.descricao}</p>
-                        <p> <b>Local: </b>{evento.local}</p>
+                              <p>{evento.descricao}</p>
+                        <p><b>Local: </b>{evento.local}</p>
                     </div>
-                    
                 </div>
-             <Rodape/>
+          
         </>
         
 

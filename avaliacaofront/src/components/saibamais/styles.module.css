@@ -1,0 +1,31 @@
+.imagem{
+
+    background-image: url('/751911.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.cont{
+    position: sticky;
+    top: 8%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: rgba(254, 254, 254, 0.211);
+    width: 90vh;
+    border-radius: 1rem;
+    margin: auto;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.567);
+}
+.texto{
+   
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    line-height: 4.5vh;
+    font-size: 20px;
+}

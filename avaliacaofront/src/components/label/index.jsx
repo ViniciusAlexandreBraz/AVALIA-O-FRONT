@@ -13,44 +13,32 @@ export default function () {
     return (
         <>
             <div className={styles.label}>
-                <label className={styles.titulo}>Titulo</label>
-                <Input />
-            </div>
-            <div>
-                <label className={styles.descricao}>Descrição</label>
-                <TextArea />
-            </div>
-            <div className={styles.container}>
-                <div>
+                    <label >Titulo</label>
+                    <Input />
+            
+                    <label>Descrição</label>
+                   <TextArea />
 
-                    <label className={styles.data}>Data Inicio:</label>
+                    <label>Local <InputLocal /> </label>
+                    <label className={styles.data}>
+
+                    Data Inicio:
                     <InputDataInicio />
+                     Data Fim:
+                    <InputDataFim /> 
 
-                </div>
-                <div>
-                    <label className={styles.data} >Data Fim:</label>
-                    <InputDataFim />
-                </div>
+                    </label>
 
-            </div>
-            <div className={styles.cont}>
-
-                <div>
-
-                    <label className={styles.img}>Imagem de Inicio:</label>
+                    <label className="file"> Imagem Inicio</label>
                     <InputIMAGE />
 
-                </div>
-                <div>
-                    <label className={styles.img} >Imagem de Fundo:</label>
-                    <InputImgFundo />
-                </div>
+                    <label className="file" >Imagem de Fundo:</label>
+                    <InputImgFundo/>
 
-                <div>
-                    <label className={styles.local}>Local</label>
-                    <InputLocal />
+                    
+                   
                 </div>
-            </div>
+           
 
         </>
     )

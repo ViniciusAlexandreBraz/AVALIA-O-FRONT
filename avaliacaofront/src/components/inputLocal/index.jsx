@@ -16,13 +16,11 @@ export default function local() {
     }
     return (
         <div onSubmit={e => inserirEvento(e)}>
-            <div className={styles.container}>
-                <input className={styles.local} type="local"
-                    id="Local"
-                    value={evento.local}
-                    onChange={e => setEvento({ ...evento, local: e.target.value })} />
-            </div>
-
+            <input placeholder="Nome do Local" className={styles.local} type="local"
+                id="Local"
+                value={evento.local}
+                onChange={e => setEvento({ ...evento, local: e.target.value })} />
         </div>
+
     )
 }

@@ -11,7 +11,7 @@ import Link from 'next/link';
 export default function Rodape() {
     return (
         <>
-
+            <main className={styles.main}></main>
             <footer className={styles.footer}>
                 <div className={styles.footerContent}>
                     <div className={styles.contatos}>

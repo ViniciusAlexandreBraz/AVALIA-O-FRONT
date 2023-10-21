@@ -1,33 +1,30 @@
-.container{
+
+.container {
   display: flex;
   flex-direction: column;
-  background-color: rgb(255, 255, 255);
-  height: 25rem;
-  width: 25rem;
-  margin: 1rem auto;
-  max-width: 25rem;
-  border-radius: 1rem;
-  border: 1px solid rgb(89, 0, 255);
-
+  align-items: center;
 }
+
 .title {
-    color: #5f33e3;
-    text-align: center;
-    font-size: 30px;
+  color: #5f33e3;
+  text-align: center;
+  font-size: 30px;
+}
+
+.title span {
+  color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5rem;
   }
-  .title span {
-    color: rgb(0, 0, 0); 
-  }
-  @media screen and (max-width: 768px) {
-    .container{
-        grid-template-columns: repeat(1, 1fr);
-        gap: 5rem;
-    }
 }
 
 @media screen and (max-width: 500px) {
-    .container{
-        grid-template-columns: repeat(1, 1fr);
-        padding: 3rem 2rem;
-    }
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 3rem 2rem;
   }
+}

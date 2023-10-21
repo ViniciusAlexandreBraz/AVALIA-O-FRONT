@@ -2,6 +2,7 @@ import styles from "./styles.module.css"
 import { useState } from "react"
 import axios from "axios"
 import Label from "../label"
+import Button from "../button"
 
 export default function Formulario() {
 
@@ -19,22 +20,19 @@ export default function Formulario() {
     }
 
     return (
+        
 
-        <form onSubmit={e => inserirEvento(e)}>
-            <div className={styles.tela}>
-                <div className={styles.container}>
-
-                    <h1 className={styles.title}>
-                        Cadastrar <span>Eventos</span>
-                    </h1>
-                    <Label/>
-
-                    <div>
-                        <button>Cadastrar</button>
+            <form onSubmit={e => inserirEvento(e)}>
+                <div className={styles.tela}>
+                    <div className={styles.container}>
+                        <h1 className={styles.title}>
+                            Cadastrar <span> Eventos</span>
+                        </h1>
+                        <Label />
+                        <Button/>
                     </div>
                 </div>
-            </div>
-        </form>
-
+            </form>
+       
     )
 }

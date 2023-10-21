@@ -4,13 +4,13 @@
     display: flex;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
-    height: 25rem;
-    width: 35rem;
-    margin: 1rem auto;
+    width: 80vh;
+    min-height: 80vh;
     border-radius: 1rem;
-    border: 1px solid rgb(89, 0, 255);
+    margin:  auto;
+    border: 1px solid blueviolet;
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.567);
-  
+
 }
 .cardTitulo {
     flex-direction: column;
@@ -22,7 +22,8 @@
     flex-direction: column;
     font-size: 15px;
     gap: 5px;
-    line-height: 2.5vh;
+    line-height: 3.5vh;
+
 }
 
 .card:hover {

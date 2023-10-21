@@ -20,7 +20,7 @@ export default function Cabecalho() {
                     </Link>
 
                     <Link
-                        href="/saibamais">
+                        href="/saibaMais">
                         <h1 className={styles.git}>SAIBA MAIS</h1>
                     </Link>
                 </div>
