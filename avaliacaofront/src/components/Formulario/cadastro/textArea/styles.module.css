@@ -1,0 +1,27 @@
+.form_text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    color: white;
+}
+
+.form_text label { 
+    margin-bottom: .6em;
+    font-weight: bold;
+}
+
+.form_text textarea {
+    padding: .7em;
+    height: 10rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(228, 225, 225);
+    resize: none;
+    border: 1px solid black;
+}
+
+
+.form_text textarea:focus {
+    outline: none;
+}

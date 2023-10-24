@@ -1,6 +1,9 @@
-import Formulario from "@/components/formulario"
 
-export default function Home() {
+
+
+import Formulario from "@/components/Formulario/cadastro"
+
+export default function Form() {
 
   return (
     <>

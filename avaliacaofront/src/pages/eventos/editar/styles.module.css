@@ -1,0 +1,12 @@
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 3em ;
+}
+
+.container h1 {
+    text-align: center;
+}
+.pgn span{
+    color:rgb(18, 10, 143);
+}

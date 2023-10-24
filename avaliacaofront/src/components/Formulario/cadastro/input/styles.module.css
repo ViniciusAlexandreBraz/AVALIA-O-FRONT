@@ -1,0 +1,38 @@
+.form_control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    color: white;
+}
+
+.form_control input {
+    padding: .7em;
+    height: 3rem;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(41, 40, 40);
+}
+
+.form_control input::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.form_control input:focus {
+    outline: none;
+}
+
+.form_control input[type="file"] {
+    cursor: pointer;
+}
+
+.form_control input[type="file"]::-webkit-file-upload-button {
+    cursor: pointer;
+    padding: .5em;
+    border-radius: 10px;
+    background-color: rgb(163, 161, 161);
+    color: rgb(0, 0, 0);
+    border: none;
+
+}

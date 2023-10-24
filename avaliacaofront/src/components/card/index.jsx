@@ -1,7 +1,7 @@
 import Link from "next/link"
 import styles from "./styles.module.css"
 
-export default function Card({ id, imagem, titulo, dataInicio, dataFim, local, }) {
+export default function Card({ id,imagem, imagemFundo, titulo, dataInicio, dataFim, local, }) {
     return (
         <>
          <div className={styles.card}>

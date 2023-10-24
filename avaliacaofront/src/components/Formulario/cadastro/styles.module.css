@@ -1,0 +1,12 @@
+.form {
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    padding: 70px;
+}
+.pgn{
+    text-align: center;
+}
+.pgn span{
+    color:rgb(18, 10, 143);
+}
