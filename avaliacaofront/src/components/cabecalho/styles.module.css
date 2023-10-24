@@ -28,9 +28,9 @@
     margin-left: 25px;
 }
 .git:hover{
-    background-color: rgb(200, 121, 246);
     border-radius: 6px;
     transition: all 0.4s ease;
+    transform: scale(1.1);
 }
 @media screen and (max-width: 768px) {
     .cabecalho{

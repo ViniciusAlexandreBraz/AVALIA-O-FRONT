@@ -1,22 +1,19 @@
 
-
 .label{
     display: flex;
-    height: 60vh;
-    row-gap: 10px;
+    align-items: center;
+    min-height: 70vh;
+    font-size: 15px;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10px;
+    width: 70vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .data{
-    display: inline-flex;
-    row-gap: 10px;
-    padding-top: 20px;
-}
-.file{
-    display: inline-flex;
-    row-gap: 10px;
-    padding-top: 20px;
+    display: inline-table;
+    font-size: 15px;
 }
 @media screen and (max-width: 768px) {
     .label{

@@ -1,9 +1,7 @@
 import axios from "axios";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import Cabecalho from "@/components/cabecalho";
 import styles from "./styles.module.css"
-import Rodape from "@/components/rodape";
 
 export default function EventosHome() {
     const [evento, setEvento] = useState({})
@@ -24,7 +22,7 @@ export default function EventosHome() {
     }, [router])
 
     return (
-        <>
+        <div className={styles.tela}>
              
                 <div className={styles.card}>
                     <div>
@@ -38,7 +36,7 @@ export default function EventosHome() {
                     </div>
                 </div>
           
-        </>
+        </div>
         
 
     )

@@ -10,20 +10,29 @@ export default function TextArea() {
         descricao: ""
     })
 
+    const [mensagem, setMensagem] = useState("")
+
     function inserirEvento(e) {
         e.preventDefault()
 
-        axios.post('http://localhost:3000/eventos', evento)
-            .then(resultado => console.log(resultado.data)).catch
-            (erro => console.log(erro))
+        axios.post('http://localhost:3001/eventos', evento)
+            .then(resultado => {
+                console.log(resultado.data)
+                setEvento({
+                    descricao: ""
+                })
+                setMensagem("Evento cadastrado com sucesso!")
+            })
+            .catch(erro => console.log(erro))
     }
 
     return (
 
         <form onSubmit={e => inserirEvento(e)}>
             <div className={styles.container}>
-                <textarea className={styles.box}
+                <textarea placeholder="Descreva sobre o Evento" className={styles.box}
                     value={evento.descricao}
+                    required=""
                     onChange={e => setEvento({ ...evento, descricao: e.target.value })}
                 />
             </div>

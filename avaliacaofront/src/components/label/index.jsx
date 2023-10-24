@@ -3,7 +3,7 @@ import InputDataInicio from "../inputDataInicio"
 import InputDataFim from "../inputDataFim"
 import InputLocal from "../inputLocal"
 import InputIMAGE from "../inputIMAGE"
-import InputImgFundo from "../inputImgFundo"
+import Button from "../button"
 
 
 import TextArea from "../textArea"
@@ -13,33 +13,27 @@ export default function () {
     return (
         <>
             <div className={styles.label}>
-                    <label >Titulo</label>
+                <label >Titulo
                     <Input />
-            
-                    <label>Descrição</label>
-                   <TextArea />
+                </label>
+                <label>Descrição
+                    <TextArea />
+                </label>
+                <label>Local <InputLocal />
+                </label>
 
-                    <label>Local <InputLocal /> </label>
-                    <label className={styles.data}>
-
+                <label className={styles.data}>
                     Data Inicio:
                     <InputDataInicio />
-                     Data Fim:
-                    <InputDataFim /> 
+                    Data Fim:
+                    <InputDataFim />
+                </label>
 
-                    </label>
-
-                    <label className="file"> Imagem Inicio</label>
+                <label className={styles.file}> Selecione a Imagem
                     <InputIMAGE />
-
-                    <label className="file" >Imagem de Fundo:</label>
-                    <InputImgFundo/>
-
-                    
-                   
-                </div>
-           
-
+                </label>
+                <Button type='submit' />
+            </div>
         </>
     )
 }

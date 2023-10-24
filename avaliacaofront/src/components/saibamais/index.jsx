@@ -29,9 +29,7 @@ Suporte Técnico: Fornece assistência para resolver problemas técnicos durante
 
 Em resumo, uma plataforma de eventos simplifica a organização, melhora a promoção e aumenta a eficiência dos eventos, oferecendo uma experiência aprimorada tanto para organizadores quanto para participantes.</p>
                 </div>
-             </div>
-
-            
+             </div>     
             </>           
     )
 }
