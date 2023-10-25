@@ -58,7 +58,7 @@ export default function AlterarPage() {
         axios.patch(`http://localhost:3001/eventos/${id}`, evento)
             .then(resultado => {
                 setEvento(resultado.data);
-                toast.success('O evento foi alterado com sucesso!');
+                toast.success('O evento foi editado com sucesso!');
             })
             .catch((erro) => {
                 console.log(erro);

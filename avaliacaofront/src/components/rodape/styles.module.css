@@ -1,14 +1,15 @@
-.main{
+.main {
     position: sticky;
     top: 0%;
 }
+
 .footer {
     width: 100%;
     color: white;
 }
 
 .footerContent {
-    background-color:rgb(18, 10, 143);
+    background-color: rgb(18, 10, 143);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 1rem 3.5rem;
@@ -17,15 +18,16 @@
 .footerContent h1 {
     font-size: 25px;
 }
+
 .footerContent p {
     font-size: 20px;
 }
- 
- 
+
+
 .footerSocialMedia {
     display: flex;
     gap: 2rem;
-  
+
 }
 
 .footerSocialMedia .footerLink1 {
@@ -120,25 +122,32 @@
 
 }
 
+.footerList:hover {
+    border-radius: 6px;
+    transition: all 0.4s ease;
+    transform: scale(1.1);
+}
+
 .footerCopyrigth {
     display: flex;
     justify-content: center;
     background-color: rgb(0, 0, 0);
     font-weight: 200;
 }
-.copy{
+
+.copy {
     margin-top: -5px;
 }
 
 @media screen and (max-width: 768px) {
-    .footerContent{
+    .footerContent {
         grid-template-columns: repeat(4, 1fr);
         gap: 5rem;
     }
 }
 
 @media screen and (max-width: 426px) {
-    .footerContent{
+    .footerContent {
         grid-template-columns: repeat(1, 1fr);
         padding: 3rem 2rem;
     }

@@ -1,24 +1,20 @@
 .imagem{
 
-    background-image: url('/751911.jpg');
+    background-image: url('/1325725 (1).png');
     background-size: cover;
     background-position: center;
     min-height: 100vh;
+    opacity: 8;
 }
 
 .cont{
     display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    background-color: rgba(254, 254, 254, 0.211);
-    width: 90vh;
-    border-radius: 1rem;
-    margin: auto;
-    border: 1px solid rgb(255, 255, 255);
-    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.567);
+   
 }
 .texto{
    
+    border-radius: 1rem;    border: 5px solid rgb(0, 0, 0);
+    margin-top: 20vh;
     display: flex;
     text-align: center;
     flex-direction: column;
