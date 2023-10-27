@@ -1,12 +1,22 @@
+.cadastro{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(29, 29, 29);
+
+}
+
 .form {
-    max-width: 600px;
-    margin: auto;
     overflow: hidden;
-    padding: 70px;
+    width: 800px;
+    padding: 40px;
+    background-color: rgb(154, 154, 154);
+    box-shadow: 8px 8px 10px 0px rgba(0, 0, 0, 0.367);
 }
 .pgn{
     text-align: center;
+    color: white;
+    font-size: 25px;
 }
 .pgn span{
-    color:rgb(18, 10, 143);
+    color:rgb(255, 255, 255);
 }

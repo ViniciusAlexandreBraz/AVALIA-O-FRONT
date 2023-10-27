@@ -66,8 +66,8 @@ export default function Form({ btnText }) {
 
 
     return (
-        <>
-            <ToastContainer />
+        <div className={styles.cadastro}>
+            <ToastContainer/>
             < form onSubmit={e => inserirEvento(e)} className={styles.form}>
                 <h1 className={styles.pgn}>CADASTRAR <span> EVENTO</span></h1>
                 <Label text="Titulo do evento" name="titulo" />
@@ -134,6 +134,6 @@ export default function Form({ btnText }) {
                 <SubmitButton
                     text="CADASTRAR"  />
             </form >
-        </>
+        </div>
     )
 }
