@@ -6,11 +6,11 @@
 
 .cabecalho {
     display: flex;
-    background-color: rgb(89, 0, 255);
+    background-color: rgb(255, 255, 255);
     justify-content:space-between;
     align-items: center;
     padding: 10px;
-    border: 1px solid rgb(203, 203, 203);
+    border: 1px solid rgb(114, 114, 114);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.567);
     min-width: 35rem;
 
@@ -18,13 +18,13 @@
 .titulo{
     display: flex;
     font-size: 4vh;
-    color: white;
+    color: rgb(0, 0, 0);
 
 }
 .git{
     display: inline-flex;
     font-size: 15px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin-left: 25px;
 }
 .git:hover{

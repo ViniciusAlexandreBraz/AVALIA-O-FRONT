@@ -5,12 +5,25 @@
 
 .footer {
     width: 100%;
-    color: white;
+    color: rgb(248, 248, 248);
+}
+
+.footer h1 {
+    color: black;
+}
+
+.footer p {
+    color: black;
+}
+.footer >div>p {
+    color: rgb(255, 255, 255);
 }
 
 .footerContent {
-    background-color: rgb(18, 10, 143);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
     display: grid;
+
     grid-template-columns: repeat(2, 1fr);
     padding: 1rem 3.5rem;
 }
@@ -115,6 +128,7 @@
 
 .footerList {
     display: flex;
+    color: black;
     padding: 10px;
     flex-direction: column;
     align-items: flex-end;
@@ -137,6 +151,7 @@
 
 .copy {
     margin-top: -5px;
+    color: white;
 }
 
 @media screen and (max-width: 768px) {

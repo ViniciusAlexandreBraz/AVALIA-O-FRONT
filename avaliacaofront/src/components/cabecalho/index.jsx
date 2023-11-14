@@ -1,15 +1,8 @@
 import styles from "./styles.module.css"
-import { useState } from 'react';
 import Link from 'next/link'
 
 
 export default function Cabecalho() {
-
-    const [isDarkMode, setIsDarkMode] = useState(false);
-
-    const toggleDarkMode = () => {
-        setIsDarkMode(!isDarkMode);
-    };
 
     return (
 
